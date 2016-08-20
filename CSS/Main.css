@@ -4,8 +4,7 @@ body {
 }
 
 header {
-  padding: 20px 0;
-  padding-right: 20px;
+  padding: auto 0;
 }
 
 header .row,
