@@ -11,14 +11,15 @@
   <link rel="stylesheet" type="text/css" href="/CSS/About.css">
   
   <script>
-          $('#myTab a').click(function (e) {
-	 e.preventDefault();
-	 $(this).tab('show');
-});
+          var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
 
-$(function () {
-$('#myTab a:last').tab('show');
-})
+$(window).scroll(function(e){
+    parallax();
+});
   </script>
   
 </head>
