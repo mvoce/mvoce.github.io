@@ -68,7 +68,7 @@
   
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width:80%;
+      width:70%;
 	margin: 0 auto;
   }
 .spacing{
@@ -192,4 +192,9 @@ height: 50px;
     .logo {
         font-size: 150px;
     }
+    .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width:100%;
+	margin: 0 auto;
+  }
   }
