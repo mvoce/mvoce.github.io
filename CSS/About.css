@@ -28,6 +28,10 @@ header p {
   margin: 0;
 }
 
+.coloured {
+  background-color: #424242;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
