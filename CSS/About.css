@@ -1,12 +1,10 @@
 @font-face{
     font-family: "Sanfran";
-    src: url('Fonts/SF-UI-Display-Ultralight.otf'),
-    url('Thonburi-Bold.eot'); /* IE */
+    src: url('Fonts/SF-UI-Display-Ultralight.otf');
 }
 
 body {
-  font-family: 'Sanfran', sans-serif;
-  font-weight: 300;
+  font-family: 'Sanfran';
 }
 
 header {
